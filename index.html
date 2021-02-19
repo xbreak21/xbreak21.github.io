@@ -1,26 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Blank index page, will be filled later"/>
-	<meta name="author" content="" />
-	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="global/css/style.css">
-	<title>Nadhif Ikbar Wibowo</title>
-</head>
-<body>
-	<div id="app">
-		<div class="pt-5">
-			<div class="row justify-content-center">
-				<div class="col-12 col-md-6">
-					<h4 class="mb-4">Index of Page</h4>
-					<div class="list-group list-group-flush">
-						<a href="/berani-berarti" class="list-group-item">1. Creative Portofolio Berani Berarti</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadhif Ikbar Wibowo - Software Engineer</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" role="navigation">
+        <div id="navbar-menu">
+          <input
+            id="navbar-menu-toggle"
+            name="navbar-menu-toggle"
+            type="checkbox"
+          />
+          <label for="navbar-menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+          <ul id="navbar-menu-list">
+            <li><a href=".">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+              <div class="button-wrap dark-wrap">
+                <a class="button wrapped w-button" href="#contact"
+                  >Contact Me</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="button-wrap light-wrap">
+                <a class="button light wrapped w-button" href="#contact"
+                  >Contact Me</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="page dark first-page">
+        <div class="container">
+          <aside class="name-section flex-half">
+            <article class="name-card">
+              <h1 class="name-card__name">Nadhif Ikbar Wibowo</h1>
+              <p class="name-card__subtitle">Software Engineer</p>
+              <div class="name-card__content">
+                <div class="button-group">
+                  <div class="button-wrap dark-wrap">
+                    <a
+                      class="button wrapped w-button"
+                      href="https://github.com/nadhifikbarw"
+                      >Github</a
+                    >
+                  </div>
+                  <div class="button-wrap dark-wrap">
+                    <a
+                      class="button wrapped w-button"
+                      href="https://www.linkedin.com/in/nadhifikbarw/"
+                      >Linkedin</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+          </aside>
+          <aside class="profile-section flex-half">
+            <div class="porto-image">
+              <div class="img-wrap">
+                <img class="profile" src="assets/me.png" />
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <div class="second-page">
+        <div class="container">
+          <div class="flex-half title-section">
+            <h1 class="page-title">Projects and Open Source Contributions</h1>
+          </div>
+          <div class="flex-half project-section">
+            <section class="project-list">
+              <a
+                href="https://github.com/nadhifikbarw/easy-mysqldump"
+                class="project"
+              >
+                <p class="project-title">Easy MySQLDump</p>
+                <p class="project-desc">
+                  Data Integration utility to perform data retention using
+                  cronjob and MySQLDump
+                </p>
+                <p class="project-category">Big Data | Utility</p>
+                <p class="project-action">Go To Repository</p>
+              </a>
+              <div class="project-list-action">
+                <button role="button">Previous</button>
+                <button role="button">Next</button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="third-page" id="about">
+        <div class="container">
+          <div class="flex-half brief-section">
+            <h1 class="brief-title">What I Do?</h1>
+            <p class="brief-description">
+              I’ve been developing web applications for 2.5 years, mostly
+              information system platform to provide enterprise with their data
+              solution needs.
+            </p>
+            <div></div>
+          </div>
+          <div class="flex-half summary-section">
+            <article>
+              <h1>Information Sytems Design</h1>
+              <p>
+                I do data modeling, database design, and information system
+                dashboard development for enterpise information system.
+              </p>
+            </article>
+            <article>
+              <h1>Data Infrastrucure Architecturing</h1>
+              <p>
+                I’ve collaborated with several enterprise to build, deploy, and
+                integrate data infrastructure technology such as SQL/NoSQL
+                Database, Kafka, Neo4J, Percona, and Pentaho.
+              </p>
+            </article>
+            <article>
+              <h1>Back-end Development</h1>
+              <p>
+                Back-end developement is at the heart of building information
+                system and data solutions. If you need me as backend developer
+                I'm well-versed in PHP, Python, Bash scripting and entry level
+                of C++.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="fourth-page" id="contact">
+        <div class="container">
+          <div class="flex-half contact-section">
+            <div>
+              <h1 class="contact-title">Contact Me</h1>
+              <div class="btn-group">
+                <div class="btn-flex-wrapper">
+                  <div class="button-wrap light-wrap">
+                    <a
+                      class="button light wrapped w-button"
+                      href="https://github.com/nadhifikbarw"
+                      >Find me on Github</a
+                    >
+                  </div>
+                </div>
+                <div class="btn-flex-wrapper">
+                  <div class="button-wrap light-wrap">
+                    <a
+                      class="button light wrapped w-button"
+                      href="https://www.linkedin.com/in/nadhifikbarw/"
+                      >Find me on Linkedin</a
+                    >
+                  </div>
+                </div>
+                <div class="btn-flex-wrapper">
+                  <div class="button-wrap light-wrap">
+                    <a
+                      class="button light wrapped w-button"
+                      href="mailto:nadhifikbarw@gmail.com"
+                      >Send me an Email</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-half form-section">
+            <form name="contact" action="#" method="POST" netlify>
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div>
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" rows="9"></textarea>
+              </div>
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Made with 💛 by Nadhif Ikbar Wibowo</p>
+    </footer>
+    <script src="assets/anim.js"></script>
+    <script src="assets/project.js"></script>
+  </body>
 </html>
