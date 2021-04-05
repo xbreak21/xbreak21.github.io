@@ -1,0 +1,12 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix ndr: <http://nadhifikbarw.github.io/rdf/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+ndr:nm0787687
+    rdf:type nd:IMDBProfile ;
+    schema:name "Elizabeth Olsen" ;
+    schema:url "http://www.imdb.com/name/nm0787687" ;
+    owl:sameAs <http://www.imdb.com/name/nm0787687>, dbr:Elizabeth_Olsen, <http://viaf.org/viaf/232505986> .

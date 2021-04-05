@@ -1,0 +1,28 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+nd:IMDBShow
+	rdf:type rdfs:Class ;
+	rdf:subClassOf schema:Movie ;
+	rdf:subClassOf schema:TVSeries .
+	
+nd:IMDBShowType
+	rdf:type rdf:Alt ;
+	rdf:_1 schema:Movie
+	rdf:_2 schema:TVSeries
+	
+nd:IMDBShow_type
+	rdf:type rdf:Property ;
+	rdfs:domain <IMDBShow> ;
+	rdfs:range <IMDBShowType> .
+	
+nd:IMDBShow_reviewScore
+	rdf:type rdf:Property ;
+	rdfs:domain nd:IMDBShow ;
+	rdfs:range xsd:decimal .
+
+nd:IMDBProfile
+	rdf:type rdfs:Class ;
+	rdf:subClassOf schema:Person .

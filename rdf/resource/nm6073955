@@ -1,0 +1,12 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix ndr: <http://nadhifikbarw.github.io/rdf/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+ndr:nm6073955
+    rdf:type nd:IMDBProfile ;
+    schema:name "Florence Pugh" ;
+    schema:url "http://www.imdb.com/name/nm6073955" ;
+    owl:sameAs <http://www.imdb.com/name/nm6073955>, dbr:Florance_Pugh, <http://viaf.org/viaf/40150170709900012849> .
