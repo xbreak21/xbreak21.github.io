@@ -1,0 +1,18 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix ndr: <http://nadhifikbarw.github.io/rdf/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+ndr:tt9140560
+	rdf:type nd:IMDBShow ;
+	schema:name "The Avengers" ;
+	nd:IMDBShow_type schema:Movie ;
+	schema:datePublished "2012-05-04"^^schema:Date ;
+	schema:abstract "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity." ;
+	schema:director ndr:nm0923736 ;
+	nd:IMDBShow_reviewScore "8.0"^^xsd:decimal ;
+	schema:contentRating "PG-13" ;
+	schema:actor ndr:nm0000375, ndr:nm0262635, ndr:nm0424060 ;
+    owl:sameAs <http://www.imdb.com/title/tt0848228/>, dbr:The_Avengers_(2021_film) , <http://viaf.org/viaf/233291779> .

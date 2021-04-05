@@ -1,0 +1,12 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix ndr: <http://nadhifikbarw.github.io/rdf/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+ndr:nm0000375
+    rdf:type nd:IMDBProfile ;
+    schema:name "Robert Downey Jr." ;
+    schema:url "http://www.imdb.com/name/nm0000375" ;
+    owl:sameAs <http://www.imdb.com/name/nm0000375>, dbr:Robert_Downey_Jr, <http://viaf.org/viaf/19879171> .
