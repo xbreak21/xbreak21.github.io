@@ -4,9 +4,9 @@ This is live example of simple RDF Linked Open Data.
 
 ---
 
-## SHACL Checked
+## SHACL Report
 
-![checking result](./assets/conforms_ok.jpg)
+![SHACL_REPORT](https://user-images.githubusercontent.com/10264286/115212937-3b91ab00-a12b-11eb-973e-127de41e1f84.jpg)
 
 
 ## Resource Index (Raw)
