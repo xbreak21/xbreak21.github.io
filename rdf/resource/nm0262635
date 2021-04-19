@@ -4,7 +4,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
-@prefix wikidata: <https://www.wikidata.org/entity/>
+@prefix wikidata: <https://www.wikidata.org/entity/> .
 
 ndr:nm0262635
     rdf:type nd:IMDBProfile ;

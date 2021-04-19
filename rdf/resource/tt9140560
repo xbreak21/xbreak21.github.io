@@ -4,12 +4,14 @@
 @prefix schema: <http://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
-@prefix wikidata: <https://www.wikidata.org/entity/>
+@prefix wikidata: <https://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
 
 ndr:tt9140560
 	rdf:type nd:IMDBShow ;
 	schema:name "WandaVision" ;
-	nd:IMDBShow_type schema:TVSeries ;
+	nd:IMDBShow_type "TVSeries" ;
 	schema:datePublished "2021-01-15"^^schema:Date ;
 	schema:abstract "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems." ;
 	schema:director ndr:nm0787687 ;

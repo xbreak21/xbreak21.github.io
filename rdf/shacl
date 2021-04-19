@@ -1,0 +1,80 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nd:IMDBProfileShape
+    a sh:NodeShape ;
+    sh:targetClass nd:IMDBProfile ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:name "profile name" ;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ] ;
+    sh:property [
+        sh:path schema:url ;
+        sh:datatype xsd:string ;
+        sh:minCount 1;
+        sh:maxCount 1;
+    ] .
+
+nd:IMDBShowShape
+    a sh:NodeShape ;
+    sh:targetClass nd:IMDBShow ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:name "show title" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path nd:IMDBShow_type ;
+        sh:datatype xsd:string ;
+        sh:in ( "Movie" "TVSeries" ) ;
+        sh:name "show type" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:datatype schema:Date ;
+        sh:name "show release date" ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:abstract ;
+        sh:datatype xsd:string ;
+        sh:name "show abstract" ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:director ;
+        sh:node nd:IMDBProfileShape ;
+        sh:name "show directors" ;
+        sh:minCount 1;
+    ] ;
+    sh:property [
+        sh:path nd:IMDBShow_reviewScore ; 
+        sh:datatype xsd:decimal ;
+        sh:name "show review score" ;
+        sh:minCount 1;
+        sh:minInclusive 0;
+        sh:maxInclusive 10;
+    ] ;
+    sh:property [
+        sh:path schema:contentRating ;
+        sh:datatype xsd:string ;
+        sh:name "show content rating" ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:actor ;
+        sh:node nd:IMDBProfileShape ;
+        sh:name "show stars" ;
+        sh:minCount 1;
+    ] .
+
