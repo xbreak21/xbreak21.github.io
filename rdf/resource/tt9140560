@@ -18,4 +18,4 @@ ndr:tt9140560
 	nd:IMDBShow_reviewScore "8.2"^^xsd:decimal ;
 	schema:contentRating "TV-PG" ;
 	schema:actor ndr:nm0647634, ndr:nm0079273, ndr:nm1063517 ;
-    owl:sameAs <https://www.imdb.com/title/tt9140560/>, dbr:WandaVision , wikidata:Q65980217 .
+    owl:sameAs <https://www.imdb.com/title/tt9140560>, dbr:WandaVision , wikidata:Q65980217 .

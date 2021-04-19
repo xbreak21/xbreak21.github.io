@@ -4,6 +4,11 @@ This is live example of simple RDF Linked Open Data.
 
 ---
 
+## SHACL Checked
+
+![checking result](./assets/conforms_ok.jpg)
+
+
 ## Resource Index (Raw)
 
 Use this link to open resource with raw mode instead of downloading its file.

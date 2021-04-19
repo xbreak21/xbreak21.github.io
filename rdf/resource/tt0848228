@@ -5,7 +5,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ndr:tt9140560
+ndr:tt0848228
 	rdf:type nd:IMDBShow ;
 	schema:name "The Avengers" ;
 	nd:IMDBShow_type "Movie" ;
@@ -15,4 +15,4 @@ ndr:tt9140560
 	nd:IMDBShow_reviewScore "8.0"^^xsd:decimal ;
 	schema:contentRating "PG-13" ;
 	schema:actor ndr:nm0000375, ndr:nm0262635, ndr:nm0424060 ;
-    owl:sameAs <http://www.imdb.com/title/tt0848228/>, <https://dbpedia.org/page/The_Avengers_(2012_film)> , <http://viaf.org/viaf/233291779> .
+    owl:sameAs <http://www.imdb.com/title/tt0848228>, <https://dbpedia.org/page/The_Avengers_(2012_film)> , <http://viaf.org/viaf/233291779> .

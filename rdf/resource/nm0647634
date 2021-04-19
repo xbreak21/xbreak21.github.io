@@ -5,8 +5,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 
-ndr:nm0787687
+ndr:nm0647634
     rdf:type nd:IMDBProfile ;
     schema:name "Elizabeth Olsen" ;
-    schema:url "http://www.imdb.com/name/nm0787687" ;
-    owl:sameAs <http://www.imdb.com/name/nm0787687>, dbr:Elizabeth_Olsen, <http://viaf.org/viaf/232505986> .
+    schema:url "http://www.imdb.com/name/nm0647634" ;
+    owl:sameAs <http://www.imdb.com/name/nm0647634>, dbr:Elizabeth_Olsen, <http://viaf.org/viaf/232505986> .

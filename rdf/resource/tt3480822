@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-ndr:tt9140560
+ndr:tt3480822
 	rdf:type nd:IMDBShow ;
 	schema:name "Black Widow" ;
 	nd:IMDBShow_type "Movie" ;
@@ -16,4 +16,4 @@ ndr:tt9140560
 	nd:IMDBShow_reviewScore "0"^^xsd:decimal ;
 	schema:contentRating "Unrated" ;
 	schema:actor ndr:nm0424060, ndr:nm6073955, ndr:nm1092086 ;
-    owl:sameAs <http://www.imdb.com/title/tt9140560>, <https://dbpedia.org/resource/Black_Widow_(2020_film)> , <https://dbpedia.org/resource/Black_Widow_(2021_film)> .
+    owl:sameAs <http://www.imdb.com/title/tt3480822>, <https://dbpedia.org/resource/Black_Widow_(2020_film)> , <https://dbpedia.org/resource/Black_Widow_(2021_film)> .
