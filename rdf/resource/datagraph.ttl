@@ -1,0 +1,110 @@
+@prefix nd: <http://nadhifikbarw.github.io/rdf/vocab#> .
+@prefix ndr: <http://nadhifikbarw.github.io/rdf/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix wikidata: <https://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ndr:nm0000375
+    rdf:type nd:IMDBProfile ;
+    schema:name "Robert Downey Jr." ;
+    schema:url "http://www.imdb.com/name/nm0000375" ;
+    owl:sameAs <http://www.imdb.com/name/nm0000375>, dbr:Robert_Downey_Jr, <http://viaf.org/viaf/19879171> .
+
+ndr:nm0079273
+    rdf:type nd:IMDBProfile ;
+    schema:name "Paul Bettany" ;
+    schema:url "http://www.imdb.com/name/nm0079273" ;
+    owl:sameAs <http://www.imdb.com/name/nm0079273>, dbr:Paul_Bettany, <http://viaf.org/viaf/32206651> .
+
+ndr:nm0262635
+    rdf:type nd:IMDBProfile ;
+    schema:name "Chris Evans" ;
+    schema:url "http://www.imdb.com/name/nm0262635" ;
+    owl:sameAs <http://www.imdb.com/name/nm0262635>, dbr:Christopher_Evans, wikidata:Q12016529 .
+
+ndr:nm0424060
+    rdf:type nd:IMDBProfile ;
+    schema:name "Scarlett Johansson" ;
+    schema:url "http://www.imdb.com/name/nm0424060" ;
+    owl:sameAs <http://www.imdb.com/name/nm0424060>, dbr:Scarlett_Johansson, <http://viaf.org/viaf/85521623> .
+
+ndr:nm0647634
+    rdf:type nd:IMDBProfile ;
+    schema:name "Elizabeth Olsen" ;
+    schema:url "http://www.imdb.com/name/nm0647634" ;
+    owl:sameAs <http://www.imdb.com/name/nm0647634>, dbr:Elizabeth_Olsen, <http://viaf.org/viaf/232505986> .
+
+ndr:nm0787687
+    rdf:type nd:IMDBProfile ;
+    schema:name "Matt Shakman" ;
+    schema:url "http://www.imdb.com/name/nm0787687" ;
+    owl:sameAs <http://www.imdb.com/name/nm0787687>, dbr:Matt_Shakman, <http://viaf.org/viaf/145838629> .
+
+ndr:nm0795153
+    rdf:type nd:IMDBProfile ;
+    schema:name "Cate Shortland" ;
+    schema:url "http://www.imdb.com/name/nm0795153" ;
+    owl:sameAs <http://www.imdb.com/name/nm0795153>, dbr:Cate_Shortland, <http://viaf.org/viaf/103268455> .
+
+ndr:nm0923736
+    rdf:type nd:IMDBProfile ;
+    schema:name "Joss Whedon" ;
+    schema:url "http://www.imdb.com/name/nm0923736" ;
+    owl:sameAs <http://www.imdb.com/name/nm0923736>, dbr:Joss_Whedon, <http://viaf.org/viaf/69129615> .
+
+ndr:nm1063517
+    rdf:type nd:IMDBProfile ;
+    schema:name "Kathryn Hahn" ;
+    schema:url "http://www.imdb.com/name/nm1063517" ;
+    owl:sameAs <http://www.imdb.com/name/nm1063517>, dbr:Kathryn_Hahn, <http://viaf.org/viaf/164434801> .
+
+ndr:nm1092086
+    rdf:type nd:IMDBProfile ;
+    schema:name "David Harbour" ;
+    schema:url "http://www.imdb.com/name/nm1092086" ;
+    owl:sameAs <http://www.imdb.com/name/nm1092086>, dbr:David_Harbour, <http://viaf.org/viaf/86391024> .
+
+ndr:nm6073955
+    rdf:type nd:IMDBProfile ;
+    schema:name "Florence Pugh" ;
+    schema:url "http://www.imdb.com/name/nm6073955" ;
+    owl:sameAs <http://www.imdb.com/name/nm6073955>, dbr:Florance_Pugh, <http://viaf.org/viaf/40150170709900012849> .
+
+ndr:tt0848228
+	rdf:type nd:IMDBShow ;
+	schema:name "The Avengers" ;
+	nd:IMDBShow_type "Movie" ;
+	schema:datePublished "2012-05-04"^^schema:Date ;
+	schema:abstract "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity." ;
+	schema:director ndr:nm0923736 ;
+	nd:IMDBShow_reviewScore "8.0"^^xsd:decimal ;
+	schema:contentRating "PG-13" ;
+	schema:actor ndr:nm0000375, ndr:nm0262635, ndr:nm0424060 ;
+    owl:sameAs <http://www.imdb.com/title/tt0848228>, <https://dbpedia.org/page/The_Avengers_(2012_film)> , <http://viaf.org/viaf/233291779> .
+
+ndr:tt3480822
+	rdf:type nd:IMDBShow ;
+	schema:name "Black Widow" ;
+	nd:IMDBShow_type "Movie" ;
+	schema:datePublished "2021-07-09"^^schema:Date ;
+	schema:abstract " A film about Natasha Romanoff in her quests between the films Civil War and Infinity War." ;
+	schema:director ndr:nm0795153 ;
+	nd:IMDBShow_reviewScore "0"^^xsd:decimal ;
+	schema:contentRating "Unrated" ;
+	schema:actor ndr:nm0424060, ndr:nm6073955, ndr:nm1092086 ;
+    owl:sameAs <http://www.imdb.com/title/tt3480822>, <https://dbpedia.org/resource/Black_Widow_(2020_film)> , <https://dbpedia.org/resource/Black_Widow_(2021_film)> .
+
+ndr:tt9140560
+	rdf:type nd:IMDBShow ;
+	schema:name "WandaVision" ;
+	nd:IMDBShow_type "TVSeries" ;
+	schema:datePublished "2021-01-15"^^schema:Date ;
+	schema:abstract "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems." ;
+	schema:director ndr:nm0787687 ;
+	nd:IMDBShow_reviewScore "8.2"^^xsd:decimal ;
+	schema:contentRating "TV-PG" ;
+	schema:actor ndr:nm0647634, ndr:nm0079273, ndr:nm1063517 ;
+    owl:sameAs <https://www.imdb.com/title/tt9140560>, dbr:WandaVision , wikidata:Q65980217 .
